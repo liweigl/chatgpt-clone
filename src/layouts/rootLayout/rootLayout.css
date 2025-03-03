@@ -1,0 +1,32 @@
+.rootLayout {
+    padding: 16px 64px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    header {
+        /* Creates a horizontal flex container */
+        display: flex;
+        /* Centers items vertically */
+        align-items: center;
+        /* Maximizes space between items, pushing logo left and user right */
+        justify-content: space-between;
+
+        .logo{
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+            gap: 10px;
+
+            img{
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+    }
+    main{
+        padding: 20px;
+        flex: 1;
+    }
+}
